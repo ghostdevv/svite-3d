@@ -5,7 +5,6 @@
         OrbitControls,
         PerspectiveCamera,
         DirectionalLight,
-        AmbientLight,
         HemisphereLight,
     } from 'threlte';
     import { SVGLoader } from 'three/examples/jsm/loaders/SVGLoader.js';
