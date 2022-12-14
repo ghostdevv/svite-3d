@@ -9,12 +9,6 @@ const config = {
 
     kit: {
         adapter: adapter(),
-
-        vite: {
-            optimizeDeps: {
-                exclude: ['three'],
-            },
-        },
     },
 };
 
