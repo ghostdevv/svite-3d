@@ -8,7 +8,7 @@
         HemisphereLight,
     } from 'threlte';
     import { SVGLoader } from 'three/examples/jsm/loaders/SVGLoader.js';
-    import sviteBolt from '$lib/svite-bolt.svg?raw';
+    import sviteBolt from './lib/svite-bolt.svg?raw';
     import { onMount } from 'svelte';
     import * as THREE from 'three';
 
@@ -47,7 +47,7 @@
         <HemisphereLight
             skyColor={0x4c8eac}
             groundColor={0xac844c}
-            intensity={0.6} />
+            intensity={1} />
 
         {#if sviteBoltGeometry}
             <Mesh
